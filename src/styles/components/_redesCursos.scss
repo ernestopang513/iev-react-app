@@ -1,0 +1,36 @@
+
+
+@import '../base/_settings.scss';
+
+.redesCursos__redes-sociales {
+padding: 1.5rem 0;
+background-color: $principal;
+color: white;
+text-align: center;
+font-size: 2rem;
+}
+
+
+.redesCursos__redes-sociales i {
+color: white;
+font-size: 3.5rem;
+margin-right: 2rem;
+}
+
+@media (min-width: 768px) {
+.redesCursos__redes-sociales {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+.redesCursos__flex-redes-sociales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
+
+.redesCursos__cursos {
+margin-top: 3rem;
+margin-bottom: 3rem;
+}

@@ -1,0 +1,145 @@
+@import '../base/_settings.scss';
+
+.header__hero {
+    background-image: url("../img/hero.jpg");
+    max-height: 100vh;
+    background-size: cover;
+    background-position: 80% center;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+
+
+.header__hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    height: 100vh;
+    background: rgba(0, 0, 0, .15);
+    z-index: -1;
+}
+
+.header__navegacion ul li {
+    font-size: 20px;
+    list-style: none;
+}
+
+.header__separacion-flex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.header__barra {
+    background-color: none;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+
+.header__link-flex {
+    display: none;
+    padding: 0;
+}
+.header__logo-medidas{
+    width: 25%;
+    border-radius: 5px;
+}
+
+
+
+.header__inferior-header{
+    display: block;
+    text-align:center;
+}
+
+
+
+
+.header__mision {
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
+.header__informacion {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header__informacion span{  
+    background: linear-gradient(white,$principalClaro);
+    font-weight: bold;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+
+input:checked~ul {
+display: block;
+}
+
+input {
+display: none;
+}
+
+
+@media (min-width: 768px){
+    .header__oculta {
+        display: none;
+    }
+    .header__link-flex{
+        display: flex;
+    }
+    .link {
+        color: white;
+    }
+    .header__logo-medidas{
+        width: 15%;
+        // border-radius: 5px;
+    }
+
+    .header__link-flex li {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .header__navegacion li {
+        background: none;
+        border-bottom: none;
+    }
+    .header__link-flex li:last-of-type {
+        margin-right: 0;
+    }
+    .header__navegacion a:hover {
+        color: $principal;
+    }
+}
+@media (min-width: 768px){
+    .header__mision span.azul {
+        color: white;
+    }
+    .header__mision span.rojo {
+        color: white;
+    }
+}
+
+@media (min-width: 768px) {
+    .header__barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (min-width: 768px) {
+    .header__hero {
+        background-position: bottom;
+    }
+}

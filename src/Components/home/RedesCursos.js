@@ -23,13 +23,13 @@ export const RedesCursos = () => {
 
             <main className="generales__contenedor redesCursos__cursos">
 
-                <h2 className="generales__centrar-texto color-texto">Algunos de nuestros cursos</h2>
+                <h2 className="generales__centrar-texto generales__color-texto">Algunos de nuestros cursos</h2>
 
-                <div className="flex-cursos">
+                <div className="redesCursos__flex-cursos">
 
-                    <div className="contenedor-curso">
+                    <div className="redesCursos__contenedor-curso">
 
-                        <img className="imagenes-cursos" /* src={chicaPizarron} */ alt="imagen"/>
+                        <img className="redesCursos__imagenes-cursos" src={chicaPizarron} alt="imagen"/>
 
                         <h3>Curso preparación a la prepa </h3>
 
@@ -38,9 +38,9 @@ export const RedesCursos = () => {
 
                     </div>
 
-                    <div className="contenedor-curso">
+                    <div className="redesCursos__contenedor-curso">
 
-                        <img className="imagenes-cursos" src="img/chicos-estudiando.jpg" alt="imagen"/>
+                        <img className="redesCursos__imagenes-cursos" src="img/chicos-estudiando.jpg" alt="imagen"/>
 
                         <h3>Curso preparación a la Universidad </h3>
 
@@ -49,9 +49,9 @@ export const RedesCursos = () => {
 
                     </div>
 
-                    <div className="contenedor-curso">
+                    <div className="redesCursos__contenedor-curso">
 
-                        <img className="imagenes-cursos" src="img/chica-pizarron.jpg" alt="imagen"/>
+                        <img className="redesCursos__imagenes-cursos" src="img/chica-pizarron.jpg" alt="imagen"/>
 
                         <h3>Prepa en un exámen </h3>
 
@@ -60,9 +60,9 @@ export const RedesCursos = () => {
 
                     </div>
 
-                    <div className="contenedor-curso">
+                    <div className="redesCursos__contenedor-curso">
 
-                        <img className="imagenes-cursos" src="img/chicos-estudiando.jpg" alt="imagen"/>
+                        <img className="redesCursos__imagenes-cursos" src="img/chicos-estudiando.jpg" alt="imagen"/>
 
                         <h3>Curso de ingles </h3>
 
@@ -71,9 +71,9 @@ export const RedesCursos = () => {
 
                     </div>
 
-                    <div className="contenedor-curso">
+                    <div className="redesCursos__contenedor-curso">
 
-                        <img className="imagenes-cursos" src="img/chica-pizarron.jpg" alt="imagen"/>
+                        <img className="redesCursos__imagenes-cursos" src="img/chica-pizarron.jpg" alt="imagen"/>
 
                         <h3>Prepa en un exámen </h3>
 
@@ -82,9 +82,9 @@ export const RedesCursos = () => {
 
                     </div>
 
-                    <div className="contenedor-curso">
+                    <div className="redesCursos__contenedor-curso">
 
-                        <img className="imagenes-cursos" src="img/chicos-estudiando.jpg" alt="imagen"/>
+                        <img className="redesCursos__imagenes-cursos" src="img/chicos-estudiando.jpg" alt="imagen"/>
 
                         <h3>Curso de ingles </h3>
 

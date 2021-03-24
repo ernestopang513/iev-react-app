@@ -285,14 +285,14 @@ border-radius: 50%;
 }
 
 @media (min-width: 768px) {
-.flex-cursos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-}
-.imagenes-cursos {
-    width: 70%;
-}
+    .flex-cursos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }
+    .imagenes-cursos {
+        width: 70%;
+    }
 }
 
 .metodologia {
